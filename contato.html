@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caio Mendes</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function enviar() {
+            alert("Mensagem enviada!");
+        }
+    </script>
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header>
+        <h1>Caio Mendes</h1>
+    </header>
+
+    <!--Menu-->
+    <nav>
+        <ul>
+            <br>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">SOBRE MIM</a></li>
+            <li><a href="formacao.html">FORMAÇÃO</a></li>
+            <li><a href="portfolio.html">PORTFÓLIO</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+        </ul>
+    </nav>
+
+    <!--Corpo do site-->
+    <content>
+        <h2 class="titulo">CONTATO</h2>
+        <form>
+            <label>Nome: </label>
+            <br>
+            <input class="text" type="text">
+            <br><br>
+            <label>E-mail: </label>
+            <br>
+            <input class="text" type="text">
+            <br><br>
+            <label>Mensagem: </label>
+            <br>
+            <textarea class="text" name="msg" rows="5" cols="40"></textarea>
+            <br><br>
+            <button type="button" onclick="enviar()" style="width: 100px; height: 20px; font-size: 15px;">Enviar</button>
+            <br><br>
+        </form>
+    </content> 
+
+    <!--Rodapé-->
+    <footer>Todos os direitos reservados - Caio Correa Mendes</footer>
+</body>
+</html>
